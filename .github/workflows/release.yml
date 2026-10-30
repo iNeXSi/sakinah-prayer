@@ -29,4 +29,4 @@ jobs:
         run: |
           $installer = Get-ChildItem dist -Filter 'Sakinah-Setup-*.exe' | Select-Object -First 1
           if (-not $installer) { throw 'Installer was not produced' }
-          gh release create $env:GITHUB_REF_NAME $installer.FullName --title 'سكينة 1.0.0' --notes-file RELEASE-NOTES.md
+          gh release create $env:GITHUB_REF_NAME $installer.FullName --title 'سكينة 1.0.1' --notes-file RELEASE-NOTES.md
