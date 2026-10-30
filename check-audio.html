@@ -1,0 +1,20 @@
+<!doctype html><script>
+const fs=require('fs'),path=require('path'),{ipcRenderer}=require('electron');
+(async()=>{
+ const ctx=new AudioContext(),results=[];
+ for(const file of require('./audio-library.json').map(t=>t.file)){
+  try{
+   const bytes=fs.readFileSync(path.join(__dirname,'audio',file));
+   const b=await ctx.decodeAudioData(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength));
+   const x=b.getChannelData(0),rate=b.sampleRate;let audibleAt=null;
+   for(let t=0;t<Math.min(b.duration,30);t+=.05){
+    let sum=0,end=Math.min(x.length,Math.floor((t+.05)*rate));
+    for(let i=Math.floor(t*rate);i<end;i++)sum+=x[i]*x[i];
+    if(Math.sqrt(sum/(rate*.05))>.006){audibleAt=Math.round(t*100)/100;break;}
+   }
+   results.push({file,duration:b.duration,audibleAt,error:audibleAt===null?'No audible samples near start':null});
+  }catch(e){results.push({file,error:String(e)});}
+ }
+ await ctx.close();ipcRenderer.send('result',results);
+})();
+</script>

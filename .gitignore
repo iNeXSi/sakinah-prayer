@@ -1,0 +1,14 @@
+node.exe
+Notifier.exe
+Notifier.next.exe
+data/
+
+node_modules/
+dist/
+dist-build.log
+*.zip
+*.lnk
+audio/*.mp3
+audio/takbir.wav
+preview-*.png
+

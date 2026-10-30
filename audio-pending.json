@@ -1,0 +1,62 @@
+[
+  {
+    "id": "haram-saad",
+    "name": "محمد رمضان سعد",
+    "group": "makkah",
+    "kind": "adhan",
+    "description": "الحرم المكي",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=426698&page=audioinfo",
+    "file": "haram-saad.mp3",
+    "downloadUrl": null,
+    "status": "Pending original download: connection reset"
+  },
+  {
+    "id": "haram-raml",
+    "name": "محمد خليل رمل",
+    "group": "makkah",
+    "kind": "adhan",
+    "description": "الحرم المكي",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=4&page=audioinfo",
+    "file": "haram-raml.mp3",
+    "downloadUrl": null,
+    "status": "Pending original download: connection reset"
+  },
+  {
+    "id": "haram-faidah",
+    "name": "نايف صالح فيده",
+    "group": "makkah",
+    "kind": "adhan",
+    "description": "الحرم المكي",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=85149&page=audioinfo",
+    "file": "haram-faidah.mp3",
+    "downloadUrl": null,
+    "status": "Pending original download: connection reset"
+  },
+  {
+    "id": "haram-hadrawi",
+    "name": "فاروق عبد الرحمن حضراوي",
+    "group": "makkah",
+    "kind": "adhan",
+    "description": "الحرم المكي",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=85173&page=audioinfo",
+    "file": "haram-hadrawi.mp3",
+    "downloadUrl": null,
+    "status": "Pending original download: connection reset"
+  },
+  {
+    "id": "nabawi-bukhari",
+    "name": "عصام بخاري",
+    "group": "nabawi",
+    "kind": "adhan",
+    "description": "الحرم النبوي",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=5&page=audioinfo",
+    "file": "nabawi-bukhari.mp3",
+    "downloadUrl": null,
+    "status": "Pending original download: connection reset"
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "soft",
+    "name": "نسيم",
+    "kind": "tone",
+    "description": "نغمة ناعمة ومتدرجة",
+    "file": "soft.wav",
+    "source": "تأليف سكينة",
+    "group": "other"
+  },
+  {
+    "id": "bell",
+    "name": "جرس هادئ",
+    "kind": "tone",
+    "description": "رنين واضح وقصير",
+    "file": "bell.wav",
+    "source": "تأليف سكينة",
+    "group": "other"
+  },
+  {
+    "id": "dawn",
+    "name": "إشراقة",
+    "kind": "tone",
+    "description": "ثلاث نغمات متتابعة",
+    "file": "dawn.wav",
+    "source": "تأليف سكينة",
+    "group": "other"
+  },
+  {
+    "id": "pulse",
+    "name": "تذكير",
+    "kind": "tone",
+    "description": "نبضتان خفيفتان",
+    "file": "pulse.wav",
+    "source": "تأليف سكينة",
+    "group": "other"
+  },
+  {
+    "id": "adhan-now",
+    "name": "حان الآن وقت الأذان",
+    "kind": "tone",
+    "description": "تنبيه منطوق · صوت مولّد آليًا",
+    "file": "adhan-now.mp3",
+    "source": "Microsoft Edge TTS · ar-SA-HamedNeural",
+    "text": "حَانَ الْآنَ وَقْتُ الْأَذَانِ.",
+    "group": "other"
+  },
+  {
+    "downloadUrl": "https://quran-fjamfcbbeybteyat.z01.azurefd.net/Audio3/Adan/4003.mp3",
+    "file": "makkah.mp3",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=1&page=audioinfo",
+    "id": "makkah",
+    "name": "علي بن أحمد ملا",
+    "kind": "adhan",
+    "description": "الحرم المكي",
+    "source": "إسلام ويب",
+    "verifiedSource": "https://audio.islamweb.net/audio/index.php?audioid=1&page=audioinfo",
+    "group": "makkah"
+  },
+  {
+    "downloadUrl": "https://raw.githubusercontent.com/Kiwifu/adhan-mp3/main/Adhan_Al_Haram_Al_Madani_-_Al_Madinah_1_%28%D8%A3%D8%B0%D8%A7%D9%86_%D8%A7%D9%84%D8%AD%D8%B1%D9%85_%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A_-_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9%29.mp3",
+    "file": "madinah.mp3",
+    "sourceUrl": "https://github.com/Kiwifu/adhan-mp3/blob/main/Adhan_Al_Haram_Al_Madani_-_Al_Madinah_1_%28%D8%A3%D8%B0%D8%A7%D9%86_%D8%A7%D9%84%D8%AD%D8%B1%D9%85_%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A_-_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9%29.mp3",
+    "id": "madinah",
+    "name": "الأذان المدني",
+    "kind": "adhan",
+    "description": "أذان من الحرم المدني",
+    "source": "Kiwifu / adhan-mp3",
+    "verifiedSource": "https://github.com/Kiwifu/adhan-mp3/blob/main/Adhan_Al_Haram_Al_Madani_-_Al_Madinah_1_%28%D8%A3%D8%B0%D8%A7%D9%86_%D8%A7%D9%84%D8%AD%D8%B1%D9%85_%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A_-_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9%29.mp3",
+    "group": "nabawi"
+  },
+  {
+    "id": "afasy",
+    "name": "مشاري راشد العفاسي",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "afasy.mp3",
+    "source": "AlAdhan",
+    "sourceUrl": "https://aladhan.com/download-adhans",
+    "downloadUrl": "https://cdn.aladhan.com/audio/adhans/a9.mp3",
+    "verifiedSource": "https://aladhan.com/download-adhans",
+    "group": "other"
+  },
+  {
+    "id": "nafees",
+    "name": "أحمد النفيس",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "nafees.mp3",
+    "source": "AlAdhan",
+    "sourceUrl": "https://aladhan.com/download-adhans",
+    "downloadUrl": "https://cdn.aladhan.com/audio/adhans/a1.mp3",
+    "verifiedSource": "https://aladhan.com/download-adhans",
+    "group": "other"
+  },
+  {
+    "id": "afasy-dubai",
+    "name": "مشاري العفاسي — تلفزيون دبي",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "afasy-dubai.mp3",
+    "source": "AlAdhan",
+    "sourceUrl": "https://aladhan.com/download-adhans",
+    "downloadUrl": "https://cdn.aladhan.com/audio/adhans/a4.mp3",
+    "verifiedSource": "https://aladhan.com/download-adhans",
+    "group": "other"
+  },
+  {
+    "id": "afasy-alt",
+    "name": "مشاري العفاسي — تسجيل آخر",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "afasy-alt.mp3",
+    "source": "AlAdhan",
+    "sourceUrl": "https://aladhan.com/download-adhans",
+    "downloadUrl": "https://cdn.aladhan.com/audio/adhans/a7.mp3",
+    "verifiedSource": "https://aladhan.com/download-adhans",
+    "group": "other"
+  },
+  {
+    "id": "takbir",
+    "name": "الله أكبر الله أكبر",
+    "kind": "adhan",
+    "description": "مقطع تكبير من أذان أحمد النفيس",
+    "file": "takbir.wav",
+    "source": "AlAdhan",
+    "sourceUrl": "https://aladhan.com/download-adhans",
+    "sourceFile": "nafees.mp3",
+    "excerpt": {
+      "start": 9.2,
+      "end": 26.4
+    },
+    "group": "other"
+  },
+  {
+    "id": "qatami",
+    "name": "ناصر القطامي",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "qatami.mp3",
+    "group": "other",
+    "source": "Kiwifu / adhan-mp3",
+    "sourceUrl": "https://github.com/Kiwifu/adhan-mp3/blob/main/Nasser_Al_Qatami_1_-_Saudi_Arabia_(%D9%86%D8%A7%D8%B5%D8%B1_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%85%D9%8A_-_%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9).mp3",
+    "downloadUrl": "https://raw.githubusercontent.com/Kiwifu/adhan-mp3/main/Nasser_Al_Qatami_1_-_Saudi_Arabia_(%D9%86%D8%A7%D8%B5%D8%B1_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%85%D9%8A_-_%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9).mp3",
+    "verifiedSource": "https://github.com/Kiwifu/adhan-mp3/blob/main/Nasser_Al_Qatami_1_-_Saudi_Arabia_(%D9%86%D8%A7%D8%B5%D8%B1_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%85%D9%8A_-_%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9).mp3"
+  },
+  {
+    "id": "daghriri",
+    "name": "حمد الدغريري",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "daghriri.mp3",
+    "group": "other",
+    "source": "Kiwifu / adhan-mp3",
+    "sourceUrl": "https://github.com/Kiwifu/adhan-mp3/blob/main/Hamad_Al_Daghriri_(%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%AF%D8%BA%D8%B1%D9%8A%D8%B1%D9%8A).mp3",
+    "downloadUrl": "https://raw.githubusercontent.com/Kiwifu/adhan-mp3/main/Hamad_Al_Daghriri_(%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%AF%D8%BA%D8%B1%D9%8A%D8%B1%D9%8A).mp3",
+    "verifiedSource": "https://github.com/Kiwifu/adhan-mp3/blob/main/Hamad_Al_Daghriri_(%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%AF%D8%BA%D8%B1%D9%8A%D8%B1%D9%8A).mp3"
+  },
+  {
+    "id": "nafees-2",
+    "name": "أحمد النفيس — تسجيل آخر",
+    "kind": "adhan",
+    "description": "تسجيل أذان",
+    "file": "nafees-2.mp3",
+    "group": "other",
+    "source": "Kiwifu / adhan-mp3",
+    "sourceUrl": "https://github.com/Kiwifu/adhan-mp3/blob/main/Ahmad_Al_Nafees_(%D8%A3%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D9%86%D9%81%D9%8A%D8%B3).mp3",
+    "downloadUrl": "https://raw.githubusercontent.com/Kiwifu/adhan-mp3/main/Ahmad_Al_Nafees_(%D8%A3%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D9%86%D9%81%D9%8A%D8%B3).mp3",
+    "verifiedSource": "https://github.com/Kiwifu/adhan-mp3/blob/main/Ahmad_Al_Nafees_(%D8%A3%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D9%86%D9%81%D9%8A%D8%B3).mp3"
+  },
+  {
+    "id": "aqsa-qazzaz",
+    "name": "ناجي قزاز",
+    "kind": "adhan",
+    "description": "المسجد الأقصى",
+    "file": "aqsa-qazzaz.mp3",
+    "group": "other",
+    "source": "إسلام ويب",
+    "sourceUrl": "https://audio.islamweb.net/audio/index.php?audioid=7&page=audioinfo",
+    "downloadUrl": "https://quran-fjamfcbbeybteyat.z01.azurefd.net/Audio3/Adan/4007.mp3",
+    "verifiedSource": "https://audio.islamweb.net/audio/index.php?audioid=7&page=audioinfo"
+  }
+]

@@ -1,0 +1,32 @@
+name: Windows release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run dist:win
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Publish installer
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $installer = Get-ChildItem dist -Filter 'Sakinah-Setup-*.exe' | Select-Object -First 1
+          if (-not $installer) { throw 'Installer was not produced' }
+          gh release create $env:GITHUB_REF_NAME $installer.FullName --title 'سكينة 1.0.0' --notes-file RELEASE-NOTES.md
